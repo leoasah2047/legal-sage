@@ -16,8 +16,8 @@ export function absoluteUrl(path: string) {
 }
 
 export function constructMetadata({
-  title = "Attorneys Ace - AI Legal Assistant",
-  description = "Attorneys Ace is an AI Legal Assistant which enables lawyers to reviews, analysis and edit legal documents in Attorneys Ace using an interactive AI editor that handles PDF and DOCX files natively.",
+  title = "Legal Sage - AI Legal Assistant",
+  description = "Legal Sage is an AI Legal Assistant which enables lawyers to reviews, analysis and edit legal documents in Attorneys Ace using an interactive AI editor that handles PDF and DOCX files natively.",
   image = "/thumbnail.png",
   icons = "/favicon.ico",
   noIndex = false
