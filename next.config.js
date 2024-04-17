@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   async redirects() {
     return [
       {
@@ -13,9 +16,6 @@ const nextConfig = {
         permanent: true,
       },
     ]
-  },
-  eslint: {
-    ignoreDuringBuilds: true,
   },
 
   webpack: (
