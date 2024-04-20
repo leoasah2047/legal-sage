@@ -21,17 +21,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en' className='light'>
-      <head>
-        <!-- ConveyThis: https://www.conveythis.com/   -->
-        <script src="//cdn.conveythis.com/javascript/conveythis-initializer.js"></script>
-        <script type="text/javascript">
-        	document.addEventListener("DOMContentLoaded", function(e) {
-        		ConveyThis_Initializer.init({
-        			api_key: "pub_4bee391bdd7872d07d4a74fed6d2b59e"
-        		});
-        	});
-        </script>
-      </head>
       <Providers>
         <body
           className={cn(
